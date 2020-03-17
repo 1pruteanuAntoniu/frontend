@@ -1,0 +1,18 @@
+@import './modules/App/App.css';
+@import './modules/Home/index.css';
+@import './modules/Navigation/index.css';
+@import './modules/Footer/index.css';
+@import './components/index.css';
+@import './modules/Events/index.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

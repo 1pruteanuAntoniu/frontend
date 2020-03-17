@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: #282e2a;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.author {
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
