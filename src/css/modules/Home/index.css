@@ -3,6 +3,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .calendar-title {
@@ -77,4 +78,43 @@
 
 .react-calendar__viewContainer {
     border: 1px solid #b3b3b3;
+}
+
+.toast-container {
+    position: absolute;
+    top: 15%;
+    right: -70%;
+    color: #fff;
+    padding: 5px 50px;
+    border-radius: 20px;
+    animation: appear 3s ease forwards;
+}
+
+.good {
+    background-color: #009791;
+}
+
+.bad {
+    background-color: #B85444;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+}
+
+.close-icon:hover {
+    cursor: pointer;
 }
